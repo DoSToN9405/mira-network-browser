@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎉 MIRA NETWORK</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="//libtl.com/sdk.js" data-zone="9657195" data-sdk="show_9657195"></script>
+</head>
+<body>
+  <div class="app">
+    <div class="header">
+      <h1>🎉 MIRA NETWORK</h1>
+      <div class="subtitle">Зарабатывай криптовалюту легко</div>
+    </div>
+
+    <div class="user-card">
+      <div class="user-avatar" id="userAvatar">👤</div>
+      <div class="user-name" id="userName">Загрузка...</div>
+      <div class="user-id" id="userId"></div>
+    </div>
+
+    <div class="balance-card">
+      <div class="balance-label">Ваш баланс</div>
+      <div class="balance-amount">
+        <span id="balance">0</span>
+        <span class="balance-currency">MIRA</span>
+      </div>
+    </div>
+
+    <div class="buttons-container">
+      <button class="btn btn-primary" id="watchAd">
+        🎬 Смотреть рекламу (+10 MIRA)
+      </button>
+      <button class="btn btn-secondary" id="copyLink">
+        🔗 Пригласить друзей
+      </button>
+    </div>
+
+    <div class="withdraw-section">
+      <h3 class="withdraw-title">💸 Вывод токенов</h3>
+      <div class="input-group">
+        <input class="input" id="withdrawAmount" type="number" placeholder="Сумма для вывода" min="10" />
+      </div>
+      <div class="input-group">
+        <input class="input" id="withdrawAddress" type="text" placeholder="Адрес вашего кошелька" />
+      </div>
+      <button class="btn btn-withdraw" id="withdraw">
+        Отправить заявку на вывод
+      </button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
